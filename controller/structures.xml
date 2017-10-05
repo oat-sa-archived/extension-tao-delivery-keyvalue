@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE structures SYSTEM "../doc/structures.dtd">
+<structures>
+	<structure id="taoDeliveryKv_main" name="Key Value Delivery Management" level="15" group="main">
+		<description />
+		<sections>
+			<section id="taoDeliveryKv_main" name="Key Value Delivery Management" url="/taoDeliveryKv/TaoDeliveryKv/index" />
+			<section id="taoDeliveryKv_other" name="Template" url="/taoDeliveryKv/TaoDeliveryKv/templateExample" />
+		</sections>
+	</structure>
+</structures>
