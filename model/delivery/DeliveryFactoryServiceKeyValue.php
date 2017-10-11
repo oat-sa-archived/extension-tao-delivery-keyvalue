@@ -19,11 +19,16 @@
  * @author Alexander Zagovorichev <zagovorichev@1pt.com>
  */
 
-namespace oat\taoDeliveryRdf\model;
+namespace oat\taoDeliveryKv\model\delivery;
 
-use oat\taoDelivery\model\Assignment as BaseAssignment;
 
-class Assignment extends BaseAssignment
+use oat\taoDelivery\model\delivery\DeliveryFactoryServiceInterface;
+use oat\taoDelivery\model\delivery\DeliveryInterface;
+
+class DeliveryFactoryServiceKeyValue implements DeliveryFactoryServiceInterface
 {
+    function create(\core_kernel_classes_Class $deliveryClass, \core_kernel_classes_Resource $test, $label = '', DeliveryInterface $delivery = null)
+    {
 
+    }
 }

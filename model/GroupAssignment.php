@@ -22,9 +22,29 @@
 namespace oat\taoDeliveryKv\model;
 
 
-use oat\taoDelivery\model\container\LegacyRuntime;
+use oat\oatbox\service\ConfigurableService;
+use oat\oatbox\user\User;
+use oat\taoDelivery\model\AssignmentService;
 
-class ContainerRuntime extends LegacyRuntime
+class GroupAssignment extends ConfigurableService implements AssignmentService
 {
+    public function getAssignments(User $user)
+    {
+        // TODO: Implement getAssignments() method.
+    }
 
+    public function getRuntime($deliveryId)
+    {
+        // TODO: Implement getRuntime() method.
+    }
+
+    public function isDeliveryExecutionAllowed($deliveryIdentifier, User $user)
+    {
+        // TODO: Implement isDeliveryExecutionAllowed() method.
+    }
+
+    public function getAssignedUsers($deliveryId)
+    {
+        // TODO: Implement getAssignedUsers() method.
+    }
 }
