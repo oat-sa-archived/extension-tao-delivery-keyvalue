@@ -34,6 +34,9 @@ return array(
         array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#taoDeliveryKvManager', array('ext'=>'taoDeliveryKv')),
     ),
     'install' => array(
+        'php' => [
+            \oat\taoDeliveryKv\scripts\install\RegisterKvAssignmentService::class,
+        ]
     ),
     'uninstall' => array(
     ),
