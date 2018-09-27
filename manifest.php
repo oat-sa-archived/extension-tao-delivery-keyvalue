@@ -22,7 +22,7 @@ return array(
     'label' => 'Key Value Delivery Management',
     'description' => 'Manages deliveries using the key value storage',
     'license' => 'GPL-2.0',
-    'version' => '0.0.1',
+    'version' => '0.0.2',
     'author' => 'Open Assessment Technologies SA',
     'requires' => array(
         'generis' => '>=4.4.3',
@@ -38,6 +38,7 @@ return array(
             \oat\taoDeliveryKv\scripts\install\RegisterKvAssignmentService::class,
         ]
     ),
+    'update' => 'oat\\taoDeliveryKv\\scripts\\update\\Updater',
     'uninstall' => array(
     ),
     'routes' => array(
