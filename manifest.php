@@ -22,7 +22,7 @@ return array(
     'label' => 'Key Value Delivery Management',
     'description' => 'Manages deliveries using the key value storage',
     'license' => 'GPL-2.0',
-    'version' => '0.0.2',
+    'version' => '0.1.0',
     'author' => 'Open Assessment Technologies SA',
     'requires' => array(
         'generis' => '>=4.4.3',
